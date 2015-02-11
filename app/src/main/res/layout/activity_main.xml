@@ -23,33 +23,20 @@
         android:layout_height="wrap_content"
         android:text="@string/start_game"
         android:id="@+id/buttonPlay"
+        android:background="@drawable/main_button"
         android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/game_settings"
         android:id="@+id/buttonOptions"
+        android:background="@drawable/main_button"
         android:layout_below="@+id/buttonPlay"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/about_game"
-        android:id="@+id/buttonAbout"
-        android:layout_below="@+id/buttonOptions"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/buttonPlay"
+        android:layout_alignStart="@+id/buttonPlay" />
 
     <TextView
         android:layout_width="wrap_content"

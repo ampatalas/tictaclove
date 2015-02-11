@@ -12,4 +12,9 @@
 
     <string name="greetings">Happy Valentines Day 2015!</string>
 
+    <!--Settings -->
+    <string name="pick_label">Pick hearts or kisses.</string>
+    <string name="pick_hearts">Hearts</string>
+    <string name="pick_kisses">Kisses</string>
+    <string name="save">Save</string>
 </resources>

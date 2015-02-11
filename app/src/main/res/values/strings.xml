@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tic tac love</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Main screen -->
+    <string name="start_game">Play</string>
+    <string name="game_settings">Options</string>
+    <string name="about_game">About</string>
+
+    <string name="greetings">Happy Valentines Day 2015!</string>
+
+</resources>
